@@ -68,7 +68,7 @@ It is quite similar to the above discussed method except that you add it in your
 ```
 git_repository(
     name = "buffoon",
-    remote = "https://github.com/shiponcs/buffoon.git",
+    remote = "https://github.com/sysdevbd/buffoon.git",
     branch = "main",
 )
 ```
@@ -78,7 +78,7 @@ Please refer to [Use by cloning the repo](Use-by-cloning-the-repo) except that i
 ```
 http_archive(
     name = "buffoon",
-    urls = ["https://github.com/shiponcs/buffoon/archive/refs/tags/v1.0.tar.gz"],
+    urls = ["https://github.com/sysdevbd/buffoon/archive/refs/tags/v1.0.tar.gz"],
     strip_prefix = "buffoon-1.0",
     sha256 = "9f8cf50ec49cbe570732dcbdc27ca24ac973a7b954da510a5a8e06ed73a9692b",
 )
